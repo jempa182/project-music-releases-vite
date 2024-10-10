@@ -7,7 +7,7 @@ import React from 'react';
 import data from "./data.json";
 
 // This imports the Album component
-import Album from './Album';
+import { Album } from './components/Album';
 
 //This is the main App compontent
 export const App = () => {
