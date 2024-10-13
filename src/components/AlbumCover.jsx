@@ -15,7 +15,7 @@ export const AlbumCover = ({ album }) => {
     return (
         <div className="album-cover"
 
-            // We've added onMouseEnter and onMouseLeave to handle hover state
+            // Added onMouseEnter and onMouseLeave to handle hover state
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             >
